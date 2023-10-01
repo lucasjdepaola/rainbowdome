@@ -9,3 +9,4 @@ below.
 ![](./sphere.png)
 
 ![](./terminalrainbow.png)
+Note that the characters are constantly changing, this is just a snapshot of it.
