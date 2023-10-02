@@ -1,5 +1,5 @@
 const colors = new Map();
-const chars = "ABC DEF GHIJKL MNOPQRST UVWXYZ1234567890"; //!@#$%^&*()-
+const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"; //!@#$%^&*()-
 colors["black"] = 30;
 colors["red"] = 31;
 colors["green"] = 32;
@@ -54,6 +54,7 @@ async function displayMatrix(dim) {
 }
 
 async function displayRandomMatrix() {
+  clearCursor();
   displayMatrix("");
   let randomRow = randomNum(30);
   let randomCol = randomNum(135);
